@@ -1188,7 +1188,7 @@ interface JQuery {
     /**
      * jsSocials custom function.
      */
-    jsSocials(obj: Object): void;
+    jsSocials(obj: Object): JQuery;
 
     /**
      * Register a handler to be called when Ajax requests complete. This is an AjaxEvent.
