@@ -1196,6 +1196,11 @@ interface JQuery {
     bootstrapToggle(obj: Object): JQuery;
 
     /**
+     * emit custom function.
+     */
+    emit(str: String): JQuery;
+
+    /**
      * Register a handler to be called when Ajax requests complete. This is an AjaxEvent.
      *
      * @param handler The function to be invoked.
