@@ -1198,7 +1198,7 @@ interface JQuery {
     /**
      * emit custom function.
      */
-    emit(str: String): JQuery;
+    emit(str: String, obj: Object): JQuery;
 
     /**
      * Register a handler to be called when Ajax requests complete. This is an AjaxEvent.
